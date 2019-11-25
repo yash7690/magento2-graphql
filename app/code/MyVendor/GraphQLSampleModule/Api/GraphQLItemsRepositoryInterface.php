@@ -15,7 +15,7 @@ interface GraphQLItemsRepositoryInterface
      * Retrieve GraphQLItems list
      *
      * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
-     * @return \MyVendor\MyVendor\Api\Data\GraphQLItemsSearchResultInterface
+     * @return \MyVendor\GraphQLSampleModule\Api\Data\GraphQLItemsSearchResultsInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function getList(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria);
